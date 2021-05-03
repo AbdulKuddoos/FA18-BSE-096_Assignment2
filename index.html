@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./scripts.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h4>Add / Update Person Form</h4>
+      <form action="" autocomplete="on">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="age">Age: </label>
+        <input type="text" id="age" name="age" /><br /><br />
+        <label for="gender">Gender: </label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label> <br /><br />
+        <label for="city">City: </label>
+
+        <select id="cities-list" name="cities">
+          <option value="Lahore">Lahore</option>
+          <option value="Islamabad">Islamabad</option>
+          <option value="Karachi">Karachi</option>
+          <option value="Peshawer">Peshawer</option></select
+        ><br /><br />
+        <input class="buttons" type="button" id="resetBtn" value="reset" />
+        <input class="buttons" type="button" id="addBtn" value="add" />
+        <input class="buttons" type="button" id="updateBtn" value="update" />
+      </form>
+    </div>
+
+    <div class="table">
+      <h4>List of Persons</h4>
+      <table id="t-1">
+        <tr>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>City</th>
+          <th>Action</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

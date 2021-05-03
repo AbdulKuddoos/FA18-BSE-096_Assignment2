@@ -1,0 +1,54 @@
+.form {
+  float: right;
+  margin-right: 10%;
+}
+
+.form form {
+  padding: 15px;
+  background-color: rgb(245, 245, 245);
+  border: solid 2px gray;
+}
+
+.form label {
+  width: 70px;
+  display: inline-block;
+}
+
+.form .buttons {
+  width: 60px;
+  display: inline-block;
+}
+
+#updateBtn,
+#addBtn {
+  margin-left: 10px;
+}
+
+.table {
+  float: left;
+  margin-left: 5%;
+}
+
+#t-1 {
+  border: solid 2px black;
+  text-align: left;
+  border-collapse: collapse;
+  color: black;
+  padding: 20px;
+}
+
+#t-1 th,
+td {
+  width: 15%;
+  height: 50px;
+}
+
+#t-1 tr:nth-child(even) {
+  background-color: white;
+}
+#t-1 tr:nth-child(odd) {
+  background-color: rgb(245, 245, 245);
+}
+#t-1 th {
+  background-color: rgb(212, 211, 211);
+}
